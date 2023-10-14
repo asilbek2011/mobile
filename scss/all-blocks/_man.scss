@@ -1,0 +1,145 @@
+.man{
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.man__info{
+    display: flex;
+}
+
+.man__items{
+    width: 279px;
+    list-style: none;
+    background-color: #0E8784;
+    border-radius: 8px;
+    padding: 50px;
+    width: 350px;
+    height: 382px;
+    font-size: 24px;
+}
+
+.man__heading3{
+    color: #FEFCF7;
+}
+
+.man__texts{
+    color: #FEFCF7;
+    width: 255px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.man__item{
+    margin: 0;
+    padding: 0;
+    padding-left: 320px;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.man__text{
+    color: #FEFCF7;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow";
+    text-align: center;
+}
+
+.man__span__text{
+    padding-left: 90px;
+}
+
+.man__heading2{
+    font-size: 40px;
+    color: #FEFCF7;
+    margin-left: 85px;
+}
+
+.man__lists{
+    background-color: #333D4B;
+    height: 577px;
+    border-radius: 8px;
+}
+
+.man__liste{
+    margin: 0;
+    padding: 0;
+    margin-top: -200px;
+    margin-left: 52px;
+}
+
+.man__img{
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 600px){
+    .man__info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -650px;
+        margin-left: -50px;
+    }
+
+    .man__lists{
+        height: 902px;
+        width: 327px;
+    }
+
+    .man__items{
+        margin-left: 23px;
+        margin-top: 230px;
+        width: 279px;
+        height: 382px;
+        padding: 50px 6px;
+    }
+
+    .man__texts{
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .man__heading3{
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .man__item{
+        margin-left: -350px;
+    }
+
+    .man__text{
+        margin-left: 10px;
+        width: 279px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .man__heading2{
+        margin-left: 20px;
+        width: 279px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px;
+    }
+}

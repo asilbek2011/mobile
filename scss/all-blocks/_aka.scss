@@ -1,0 +1,104 @@
+.aka{
+    margin-top: 100px;
+}
+
+.aka__info{
+    display: flex;
+}
+
+.aka__lists, .aka__list, .aka__liste{
+    list-style: none;
+}
+
+.aka__heading{
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    color: #FDD6BA;
+    line-height: 72px;
+    width: 90px;
+    height: 72px;
+}
+
+.aka__text{
+    width: 285px;
+    color: #333D4B;
+    font-size: 16px;
+}
+
+.aka__list, .aka__liste{
+    padding-left: 100px;
+}
+
+.aka__heading4{
+    color: #333D4B;
+}
+
+.aka__button{
+    margin: 0;
+    padding: 0;
+    background-color: #66D2CF;
+    color: #FEFCF7;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    margin-bottom: 80px;
+
+    &:hover{
+        color: #FFFFFF;
+        background-color: aquamarine;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .aka__hr{
+        display: none;
+    }
+
+    .aka__info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -80px;
+    }
+
+    .aka__heading4{
+        margin-left: 60px;
+    }
+
+    .aka__text{
+        margin-left: -10px;
+        color: #333D4B;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .aka__heading4{
+        color: #333D4B;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-left: -40px;
+    }
+
+    .aka__button{
+        background-color: #0E8784;
+        margin-left: -30px;
+
+        &:hover{
+            background-color: aqua;
+            color: #FEFCF7;
+        }
+    }
+}
